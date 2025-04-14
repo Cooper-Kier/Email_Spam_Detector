@@ -4,7 +4,7 @@ import pickle
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load tokenizer and model parameters used for preprocessing
-with open('./make_model/tokenizer.pickle', 'rb') as handle:
+with open('./tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 max_sequence_length = 100  # Same as the preprocessing during training
