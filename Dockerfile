@@ -1,8 +1,5 @@
 FROM tensorflow/serving
 
-# Copy your model into the container
-COPY models/spam_detection_model /models/spam_detection_model
-
 # Expose the port
 EXPOSE 8080
 
