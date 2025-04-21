@@ -1,6 +1,6 @@
 # AI Email Spam Detection Portfolio
 
-Welcome to my AI Email Spam Detection project! This repository showcases a full-stack solution that uses machine learning and cloud technologies to classify emails as spam or not. The project includes model development with TensorFlow, containerization with Docker, deployment on Google Cloud, and a Python Flask web interface that interacts with the TensorFlow Serving API.
+This is an AI Email Spam Detection project. This repository showcases a full-stack website that uses machine learning and cloud technologies to classify emails as spam or not. The project includes model development with TensorFlow, containerization with Docker, deployment on Google Cloud, and a Python Flask web interface that interacts with the TensorFlow Serving API.
 
 ## Technologies
 - **TensorFlow**: Used for building, training, and optimizing the spam detection model.
